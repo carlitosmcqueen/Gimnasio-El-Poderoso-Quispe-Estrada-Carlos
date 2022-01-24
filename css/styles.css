@@ -70,9 +70,16 @@ label{
     align-items: center;
     background-color: rgb(255 153 0);
 }
+.nav-barra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+}
 
 .nav-item {
     height: 8vh;
+    width:50vw;
     display: flex;
     justify-content: center;
     align-items: center;
